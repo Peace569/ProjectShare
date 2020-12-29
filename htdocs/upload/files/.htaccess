@@ -1,0 +1,9 @@
+Options -Indexes
+Order Deny,Allow
+Allow from All
+<FilesMatch "^$|(index)\.php$">
+Allow from All
+</FilesMatch>
+<FilesMatch "^$|\.pdf$">
+Allow from All
+</FilesMatch>
